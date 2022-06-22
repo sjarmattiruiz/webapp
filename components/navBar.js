@@ -3,19 +3,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
- const navBar =() => {
+const navBar =() => {
     return (
 
-
-        <div className={styles.navBar1}>
-          <div className={styles.navBar2}>
-           <a href="/">Hola, Claudia.</a>
-          </div>
-          <div className={styles.navBar3}>
-           <a href="/about">About</a>
-           </div>
-       </div>
-
+<nav >
+    <div>
+    <h1 className={styles.text4} class="vertical-align: middle" >
+        Hola, Claudia.
+    </h1>
+        <div class="text-right"><Image src="/claudiaOrtiz.png" width={36} height={36}/></div>
+    </div>  
+</nav>
     );
 };
 

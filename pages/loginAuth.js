@@ -14,7 +14,7 @@ export default function Home() {
   
         <main className={styles.mainw}>
 
-        <Image src="/APOS1.png" alt="Vercel Logo" width={215} height={225} />
+        <Image src="/APOS1.png" alt="APOS Logo" width={215} height={225} />
         <h1 className={styles.title1} >
            Ingresá con tu cuenta
           </h1>

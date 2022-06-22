@@ -211,28 +211,19 @@ text-align: center;
 color: #39BABD;
 }
 
-.navbar1 {
-  text-align: center;
-  position: absolute;
-  height: 200px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  left: -100%;
-  top: 20%;
-}
-.navbar_change{
-  background-color: antiquewhite;
-  text-align: center;
-  position: absolute;
-  height: 200px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  left: 20%;
-  top: 20%;
-}
-.navbar2 {
-  display: flex;
-  flex-direction: column;
+/* Texto Negro(Recordarme) */
+.text4{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  }
+
+
+.profile{
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(1px 0px 4px rgba(0, 0, 0, 0.1));
+  position: center;
 }
